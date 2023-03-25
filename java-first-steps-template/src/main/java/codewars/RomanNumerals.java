@@ -1,14 +1,8 @@
 package codewars;
 
 public class RomanNumerals {
-	
-	public static void main(String args[]) {
-		System.out.println(toRoman(2456));
-		System.out.println(fromRoman("MMCDLVI"));
-		
-	}
 	 
-	  public static String toRoman(int n) {
+	  public String toRoman(int n) {
 	    StringBuilder sb = new StringBuilder();
 	        if(n >= 1000){
 	            switch(n / 1000){
@@ -93,7 +87,7 @@ public class RomanNumerals {
 	    
 	  }
 	  
-	  public static int fromRoman(String romanNumeral) {
+	  public int fromRoman(String romanNumeral) {
 	    char[] ch = romanNumeral.toCharArray();
 	        int result = 0;
 	        int nValue = 0;
