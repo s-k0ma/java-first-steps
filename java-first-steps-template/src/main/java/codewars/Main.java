@@ -6,9 +6,14 @@ package codewars;
  */
 public class Main {
     public static void main(String[] args){
+        /*
         RomanNumerals romanTransletor = new RomanNumerals();
         String roman = romanTransletor.toRoman(1783);
         int arabian = romanTransletor.fromRoman("MDCCLXXXIII");
         System.out.println("Romans: " + roman + " | Arabian: " + arabian);
+        */
+        
+        SpinWords spinning = new SpinWords("Enough of spinning my words!");
+        System.out.println(spinning.sentence);
     }
 }
