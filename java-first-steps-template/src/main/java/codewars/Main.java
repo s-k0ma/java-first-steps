@@ -1,4 +1,5 @@
-package codewars;
+package main.java.codewars;
+import codewars.GoodVSEvil;
 /**
  *
  * @author sergei
@@ -7,7 +8,7 @@ package codewars;
 public class Main {
     public static void main(String[] args){
         
-        GoodVSEvil battleground = new GoodVSEvil("1 0 0 0 0 0", "1 0 0 0 0 0 0");
+        GoodVSEvil battleground = new GoodVSEvil("1 2 0 0 0 0", "1 0 0 0 0 0 0");
         battleground.battle();
         /*
         RomanNumerals romanTransletor = new RomanNumerals();
